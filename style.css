@@ -1,0 +1,56 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color:#bb99dd;
+  text-align: center;
+  margin: auto;
+}
+
+.page_spacing {
+  margin-top:207px;
+}
+.center {
+  text-align: center;
+  border: 1px solid var(--purple);
+  width: 60%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  margin-top: 6px;
+  margin-left: 6px;
+
+  background-image: url(assets/profile_photo.jpg);
+  background-position: center;
+  background-size: 300px;
+}
+
+.border_image {
+  border-radius: 50%;
+  margin: auto;
+  width: 212px;
+  height: 212px;
+  border: 2px solid #bb99dd;
+}
+
+.links {
+  box-sizing: border-box;
+  width: 326px;
+  height: 49px;
+  border: 2px solid #bb99dd;
+  margin:auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px;
+  
+}
